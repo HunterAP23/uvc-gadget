@@ -1,3 +1,6 @@
+# Fork Purpose
+Add support for working on the Raspberry Pi 4 (and possible other models besides the Pi Zero / Zero W).
+
 ## uvc-gadget
 
 **Upstream project [uvc-gadget](http://git.ideasonboard.org/uvc-gadget.git) has been updated and continuous maintenance**
@@ -8,10 +11,7 @@ UVC gadget userspace enhancement sample application
 
 Fork from  
 [uvc-gadget.git](http://git.ideasonboard.org/uvc-gadget.git)  
-Apply enhancement Bhupesh Sharma's patchset  
-[UVC gadget test application enhancements](https://www.spinics.net/lists/linux-usb/msg84376.html)  
-and Robert Baldyga's patchset  
-[Bugfixes for UVC gadget test application](https://www.spinics.net/lists/linux-usb/msg99220.html)  
+
 
 ## How to use
 
@@ -52,15 +52,10 @@ and Robert Baldyga's patchset
 - or:  
     set ARCH, CROSS_COMPILE, KERNEL_DIR in Makefile
 
-## Change log
+## History
 
-- Apply patchset [Bugfixes for UVC gadget test application](https://www.spinics.net/lists/linux-usb/msg99220.html)  
+- Initial repository: [uvc-gadget.git](http://git.ideasonboard.org/uvc-gadget.git)
 
-- Apply patchset [UVC gadget test application enhancements](https://www.spinics.net/lists/linux-usb/msg84376.html)  
-
-- Add Readme/.gitignore and documentations  
-  Copy linux-3.18.y/drivers/usb/gadget/function/uvc.h into repository, change include path for build
-
-### Initial
-
-- Fork(copy) from [uvc-gadget.git](http://git.ideasonboard.org/uvc-gadget.git)
+- Forked from: [uvc-gadget.git](https://github.com/climberhunt/uvc-gadget.git)
+    - Apply enhancement Bhupesh Sharma's patchset: [UVC gadget test application enhancements](https://www.spinics.net/lists/linux-usb/msg84376.html)  
+    - and Robert Baldyga's patchset: [Bugfixes for UVC gadget test application](https://www.spinics.net/lists/linux-usb/msg99220.html)  
